@@ -1,0 +1,54 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "name": "Clean Code",
+      "value": 28.79,
+      "img_url": "./assets/images/clean code.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Eloquent Javascript",
+      "value": 23.99,
+      "img_url": "./assets/images/eloquent  javascript.jpg"
+    },
+    {
+      "id": 3,
+      "name": "UX UI Desing",
+      "value": 9.97,
+      "img_url": "./assets/images/ux ui desing.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Pragmatic Programmer",
+      "value": 28.79,
+      "img_url": "./assets/images/the pragmatic programmer.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Machine Learning",
+      "value": 38.45,
+      "img_url": "./assets/images/machine learning.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Javascript: The Good Parts",
+      "value": 6.58,
+      "img_url": "./assets/images/the good parts.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "Cracking The Coding Interview",
+      "value": 24,
+      "img_url": "./assets/images/cracking the coding interview.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Atomic Habits",
+      "value": 11.38,
+      "img_url": "./assets/images/atomic habits.jpg"
+    }
+  ]
+}

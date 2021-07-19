@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD API REST</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CRUD API REST</h1>
+    </header>
+
+    <div class="container">
+
+        <h2 class="title">Programmer books</h2>
+
+        <div class="stock">
+
+        </div>
+
+        <div class="cart">
+
+            <h2>Carrito</h2>
+
+            <div class="items">
+
+            </div>
+
+            <div class="div">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <template id="book-template">
+        <div class="book">
+
+            <div>
+                <img class="imagen" src="" alt="">
+                <h4 class="nombre"></h4>
+            </div>
+
+            <div>
+                <h3 class="precio"></h3>
+                <button class="editar">Editar</button>
+                <button class="agregar">Agregar</button>
+            </div>
+        </div>
+    </template>
+
+
+    <template id="item-template">
+        <div class="item">
+            <h3 class="id"></h3>
+            <h3 class="nombre-table"></h3>
+            <h3 class="precio-table"></h3>
+            <button class="eliminar">Eliminar</button>
+        </div>
+    </template>
+
+    <!--  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="js/main.js" type="module"></script>
+
+</body>
+
+</html>

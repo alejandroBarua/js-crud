@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(241, 240, 240);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h3 {
+  padding: 10px;
+  background-color: rgb(216, 214, 214);
+  color: rgb(77, 76, 76);
+  border-radius: 2px;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(77, 76, 76);
+}
+
+p {
+  color: rgb(177, 6, 6);
+}
+
+header {
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  padding: 20px 0px 10px 0px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.container > div {
+  margin: 20px 0px 50px 0px;
+}
+
+.stock {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fill, 150px);
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imagen {
+  width: 150px;
+  height: 200px;
+  box-shadow: 10px 10px 20px 5px rgb(209, 209, 209);
+}
+
+.nombre {
+  padding: 5px;
+}
+
+.precio {
+  display: inline-block;
+  padding: 8px;
+}
+
+.editar {
+  background-color: cadetblue;
+  color: white;
+  padding: 5px;
+}
+
+.editar:hover,
+.actualizar:hover {
+  background-color: rgb(75, 131, 133);
+}
+
+.agregar {
+  background-color: green;
+  color: white;
+  margin: 5px 0px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.agregar:hover {
+  background-color: rgb(2, 88, 2);
+}
+
+.item {
+  margin: 5px 0px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 30px 1fr 100px 80px;
+}
+
+.eliminar {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+
+.eliminar:hover,
+.cancelar:hover {
+  background-color: rgb(177, 6, 6);
+}
+
+.total {
+  background-color: rgb(160, 230, 233);
+}
+
+.vacio {
+  text-align: center;
+  color: rgb(145, 143, 143);
+}
+
+.actualizarPrecio {
+  display: flex;
+}
+
+.actualizarPrecio > div {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.actualizarPrecio > img {
+  width: 75px;
+  height: 110px;
+}
+
+.actualizarPrecio input {
+  padding: 10px;
+  width: 80px;
+  border: none;
+}
+
+.actualizar,
+.cancelar {
+  margin-top: 10px;
+  background-color: cadetblue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.is-active {
+  color: red;
+}
+
+.cancelar {
+  background-color: red;
+}
