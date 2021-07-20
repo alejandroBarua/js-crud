@@ -53,7 +53,6 @@ export const getAllBooks = () => {
 };
 
 
-
 export const getAllItems = () => {
 
     const $cart = document.querySelector(".items"),
@@ -104,7 +103,6 @@ export const getAllItems = () => {
 };
 
 
-
 const agregarDato = (base, name, value, img_url) => {
 
     ajax({
@@ -120,7 +118,6 @@ const agregarDato = (base, name, value, img_url) => {
     });
 
 };
-
 
 
 export const eliminarDato = (base, $boton) => {

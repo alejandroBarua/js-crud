@@ -5,33 +5,19 @@ document.addEventListener("DOMContentLoaded", e =>{
     
     getAllBooks();
     getAllItems();
-
 });
 
 
 document.addEventListener("click", e => {
     
-    if (e.target.matches(".agregar")) {
+    if (e.target.matches(".agregar")) eliminarDato("stock", e.target);
 
-        let base = "stock";
-        eliminarDato(base, e.target);
-    }
+    if (e.target.matches(".eliminar")) eliminarDato("cart", e.target);
 
-    if (e.target.matches(".eliminar")) {
-        let base = "cart";
-        eliminarDato(base, e.target);
-    }
-
-    if(e.target.matches(".editar")){
-        
-       agregarActualizarPrecio(e);
-    }
-
-    if(e.target.matches(".actualizar")){
-
-        actualizarPrecio(e);
-    }
-
+    if(e.target.matches(".editar")) agregarActualizarPrecio(e);
+    
+    if(e.target.matches(".actualizar")) actualizarPrecio(e);
+    
     if(e.target.matches(".cancelar")){
     
         const $container = document.querySelector(".container"),
